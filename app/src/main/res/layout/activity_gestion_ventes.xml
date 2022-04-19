@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/capture"
+    tools:context="com.example.yacin.pharmacie.gestion_ventes">
+
+    <RelativeLayout
+        android:layout_width="304dp"
+        android:layout_height="437dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="86dp"
+            android:orientation="vertical">
+
+            <Spinner
+                android:id="@+id/sm"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                />
+
+            <EditText
+                android:id="@+id/qv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/ser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="recharcher" />
+
+            <Button
+                android:id="@+id/vent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="venter" />
+
+            <Button
+                android:id="@+id/valider"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="valider" />
+
+            <Button
+                android:id="@+id/ord"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="nouveau ordonnance" />
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/capture"
+    tools:context="com.example.yacin.pharmacie.gestion_commandes">
+
+    <LinearLayout
+        android:layout_width="304dp"
+        android:layout_height="437dp"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <EditText
+            android:id="@+id/nc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="N° Commande"
+            android:inputType="textPersonName" />
+
+        <Spinner
+            android:id="@+id/cf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.08" />
+
+        <EditText
+            android:id="@+id/mnt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="montant"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/ter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="nouvau factr" />
+
+        <Spinner
+            android:id="@+id/cm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.08" />
+
+        <EditText
+            android:id="@+id/prx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Prix"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/qnt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Quantite"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/ajoute"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ajouter" />
+
+        <Button
+            android:id="@+id/afficher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Afficher" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

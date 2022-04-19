@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/capture"
+    tools:context="com.example.yacin.pharmacie.gestion_fournisseurs">
+
+    <LinearLayout
+        android:layout_width="304dp"
+        android:layout_height="437dp"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <EditText
+            android:id="@+id/nf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="N° Fournissur"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/nom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nom"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/adr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Adresse"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/ville"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Ville"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/tel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Tel"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/ajt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ajouter" />
+
+        <Button
+            android:id="@+id/aff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Afficher" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

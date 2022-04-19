@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/capture"
+    tools:context="com.example.yacin.pharmacie.gestion_medicaments">
+
+    <LinearLayout
+        android:layout_width="304dp"
+        android:layout_height="437dp"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <EditText
+            android:id="@+id/cm1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Code de Medicament"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/nm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nom de medicament"
+            android:inputType="textPersonName" />
+
+
+        <Spinner
+            android:id="@+id/fm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.08"
+            android:spinnerMode="dialog" />
+
+
+        <EditText
+            android:id="@+id/prv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Prix"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/pu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="posologie Usuelle"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/ops"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Observation"
+            android:inputType="textPersonName" />
+
+
+        <Button
+            android:id="@+id/ajtm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ajouter" />
+
+        <Button
+            android:id="@+id/affM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="afficher" />
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
